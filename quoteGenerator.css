@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(240, 209, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(63, 4, 63);
+    min-height: 100vh;
+    margin: 0;
+}
+div.quote-container {
+    width: auto;
+    max-width: 900px;
+    padding: 20px 30px;
+    background-color: rgb(249, 111, 249);
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 5px rgb(246, 183, 246);
+    margin-top: 50px;
+}
+.quote-content {
+    font-size: 2.5rem;
+}
+.long-quote {
+    font-size: 2rem;
+}
+.fa-quote-left {
+    color: rgb(105, 3, 105);
+    font-size: 4rem;
+}
+.quote-author {
+    margin-top: 25px;
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(116, 16, 116);
+}
+.quote-buttons {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 15px;
+}
+button {
+    cursor: pointer;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: purple;
+    color: plum;
+    outline: none;
+    padding: 0.5rem 1.8rem;
+    box-shadow: 0 2px 2px 2px rgb(246, 183, 246);
+}
+button:hover {
+    filter: brightness(150%);
+}
+button:active {
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 2px 2px 2px rgb(50, 10, 50);
+}
+.fa-twitter {
+    color: plum;
+    font-size: 1.5rem;
+}
+.twitter-button:hover {
+    color: rgb(131, 8, 131);
+}
+.next-quote {
+    font-size: 1.0rem;
+    color: plum;
+}
+.loader {
+    border: 16px solid rgb(104, 4, 87);
+    border-top: 16px solid #e34fcf;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    /* margin: auto; */
+}
+@keyframes spin {
+    0% { transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+/* Media query */
+@media screen and (max-width: 700px) { 
+    .quote-container {
+        margin: auto 60px;
+    }
+    .quote-content {
+        font-size: 1.7rem;
+    }
+}

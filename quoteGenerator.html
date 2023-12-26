@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator by SHINNIE</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="quoteGenerator.css">
+    <script src="https://kit.fontawesome.com/8e92d86bfa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="quote-container" id="quote-container">
+        <!-- quote-content -->
+        <div class="quote-content">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <span id="quote-content">Those who are blessed with the most talent don't necessarily outperform everyone else. It's the people with follow-through who excel</span>
+        </div>
+        <!-- author -->
+        <div class="quote-author">
+            <span id="quote-author">Mary Kay Ash</span>
+        </div>
+        <!-- buttons -->
+        <div class="quote-buttons">
+            <button onclick="tweetQuote()" class="twitter-button" id="twitter-button" title="Tweet This!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button onclick="newQuote()" class="next-quote" id="next-quote">New Quote</button>
+        </div>
+    </div>
+    <!-- loader -->
+    <div class="loader" id="loader"></div>
+
+    <script src="quoteGenerator.js"></script>
+</body>
+</html>
