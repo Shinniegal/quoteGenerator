@@ -14,6 +14,18 @@ body {
     min-height: 100vh;
     margin: 0;
 }
+p.helooo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    color: #e34fcf;
+}
+img.helooo {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2px solid #e34fcf;
+}
 h1.shinnie {
     color: rgb(63, 2, 63);
     font-weight: 600;
