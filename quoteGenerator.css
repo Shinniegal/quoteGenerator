@@ -9,9 +9,16 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
+    flex-direction: column;
     color: rgb(63, 4, 63);
     min-height: 100vh;
     margin: 0;
+}
+h1.shinnie {
+    color: rgb(63, 2, 63);
+    font-weight: 600;
+    font-size: 40px;
+    display: block;
 }
 div.quote-container {
     width: auto;
